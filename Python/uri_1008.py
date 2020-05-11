@@ -1,0 +1,6 @@
+n = int(input())
+h = int(input())
+s = float(input())
+salary = float(h * s)
+print('NUMBER = %d' % n)
+print('SALARY = U$ %0.2f' % salary)
