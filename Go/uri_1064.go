@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	var v [6] float64
+	var v [6]float64
 	var m, aux = 0.0, 0.0
 	for i := 0; i < len(v); i++ {
 		fmt.Scanln(&v[i])
 		if v[i] > 0 {
-			aux += 1
+			aux++
 			m += v[i]
 		}
 	}

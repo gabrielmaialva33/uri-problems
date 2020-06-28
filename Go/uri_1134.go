@@ -10,11 +10,11 @@ func main() {
 		fmt.Scanf("%d", &x)
 		if x > 0 && x <= 3 {
 			if x == 1 {
-				a += 1
+				a++
 			} else if x == 2 {
-				g += 1
+				g++
 			} else {
-				d += 1
+				d++
 			}
 		} else if x == 4 {
 			break

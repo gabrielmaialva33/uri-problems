@@ -9,7 +9,7 @@ func main() {
 		_, _ = fmt.Scanf("%d", &Z)
 	}
 	for i := X; sum <= Z; i++ {
-		count += 1
+		count++
 		sum += i
 
 	}

@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var nome string
-	var salario_fixo, vendas_mes float64
-	fmt.Scan(&nome, &salario_fixo, &vendas_mes)
-	fmt.Printf("TOTAL = R$ %.2f\n", salario_fixo+(vendas_mes*15/100.0))
+	var salariofixo, vendasmes float64
+	fmt.Scan(&nome, &salariofixo, &vendasmes)
+	fmt.Printf("TOTAL = R$ %.2f\n", salariofixo+(vendasmes*15/100.0))
 }

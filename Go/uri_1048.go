@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var salary, new_salary, readjust float64
+	var salary, newsalary, readjust float64
 	r := [5]float64{0.04, 0.07, 0.10, 0.12, 0.15}
 	var sel int
 	fmt.Scan(&salary)
@@ -24,6 +24,6 @@ func main() {
 		sel = 0
 		readjust = salary * r[sel]
 	}
-	new_salary = salary + readjust
-	fmt.Printf("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: %.0f %%\n", new_salary, readjust, r[sel]*100)
+	newsalary = salary + readjust
+	fmt.Printf("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: %.0f %%\n", newsalary, readjust, r[sel]*100)
 }

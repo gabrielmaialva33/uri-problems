@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var num [4] int
+	var num [4]int
 	for i := 0; i < len(num); i++ {
 		fmt.Scan(&num[i])
 	}

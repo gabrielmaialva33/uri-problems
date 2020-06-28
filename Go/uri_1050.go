@@ -3,26 +3,26 @@ package main
 import "fmt"
 
 func main() {
-	str_arrey := [9] string{"Brasilia", "Salvador", "Sao Paulo", "Rio de Janeiro", "Juiz de Fora", "Campinas", "Vitoria", "Belo Horizonte"}
+	strarrey := [9]string{"Brasilia", "Salvador", "Sao Paulo", "Rio de Janeiro", "Juiz de Fora", "Campinas", "Vitoria", "Belo Horizonte"}
 	var code int
-	var str_code string
+	var strcode string
 	fmt.Scan(&code)
 	if code == 61 {
-		str_code = str_arrey[0]
+		strcode = strarrey[0]
 	} else if code == 71 {
-		str_code = str_arrey[1]
+		strcode = strarrey[1]
 	} else if code == 11 {
-		str_code = str_arrey[2]
+		strcode = strarrey[2]
 	} else if code == 21 {
-		str_code = str_arrey[3]
+		strcode = strarrey[3]
 	} else if code == 32 {
-		str_code = str_arrey[4]
+		strcode = strarrey[4]
 	} else if code == 19 {
-		str_code = str_arrey[5]
+		strcode = strarrey[5]
 	} else if code == 27 {
-		str_code = str_arrey[6]
+		strcode = strarrey[6]
 	} else if code == 31 {
-		str_code = str_arrey[7]
+		strcode = strarrey[7]
 	} else {
 		code = 0
 		fmt.Println("DDD nao cadastrado")

@@ -8,15 +8,15 @@ import (
 var i, g, e, n = 0, 0, 0, 0
 
 func main() {
-	n += 1
+	n++
 	var inter, gremio, x = 0, 0, 0
 	fmt.Scanf("%d%d", &inter, &gremio)
 	if inter == gremio {
-		e += 1
+		e++
 	} else if inter > gremio {
-		i += 1
+		i++
 	} else {
-		g += 1
+		g++
 	}
 
 	fmt.Println("Novo grenal (1-sim 2-nao)")

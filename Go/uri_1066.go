@@ -3,21 +3,21 @@ package main
 import "fmt"
 
 func main() {
-	var v [5] int
+	var v [5]int
 	var p, in, po, ne = 0, 0, 0, 0
 	for i := 0; i < len(v); i++ {
 		fmt.Scanln(&v[i])
 		if v[i]%2 == 0 {
-			p += 1
+			p++
 		} else {
-			in += 1
+			in++
 		}
 		if v[i] < 0 {
-			ne += 1
+			ne++
 		} else if v[i] == 0 {
 			continue
 		} else {
-			po += 1
+			po++
 		}
 
 	}

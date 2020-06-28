@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	var area, raio float64

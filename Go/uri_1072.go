@@ -9,9 +9,9 @@ func main() {
 	for _, i := range v {
 		fmt.Scanln(&v[i])
 		if v[i] >= 10 && v[i] <= 20 {
-			in += 1
+			in++
 		} else {
-			out += 1
+			out++
 		}
 	}
 	fmt.Printf("%d in\n%d out\n", in, out)

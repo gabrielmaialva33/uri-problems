@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	var a, b int
 	fmt.Scanf("%d\n%d", &a, &b)
-	fmt.Printf("PROD = %d\n", PROD(a, b))
+	fmt.Printf("PROD = %d\n", prod(a, b))
 }
-func PROD(x, y int) int {
+func prod(x, y int) int {
 	return x * y
 }
